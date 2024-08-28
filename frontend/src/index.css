@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap');
+body {
+  font-family: "Andika", sans-serif;
+  color: #333333;
+  /* background-image: url("https://www.madetosell.eu/brandidentity2017/wp-content/uploads/2018/07/night-skyline-wallpaper-25.jpg"); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
+
+  background-color: rgb(15 23 42);
+  padding-left: 40px;
+  padding-right: 40px;
+
+}

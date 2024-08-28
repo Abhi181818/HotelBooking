@@ -1,0 +1,129 @@
+
+.room-info-card {
+    max-width: 100%;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .room-info-overlay {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .text-success {
+    color: #28a745;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+.card1{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}  
+.scrollable-images {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    white-space: nowrap;
+  }
+  
+  .scrollable-images img {
+    max-width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .scrollable-images img:hover {
+    transform: scale(1.1);
+  }
+  
+  .modal-content {
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .modal-header {
+    border-bottom: none;
+  }
+  
+  .modal-body {
+    padding: 0;
+  }
+  
+  .modal-dialog {
+    margin: auto;
+  }
+
+  .hover-text-email {
+    display: inline-block;
+    position: relative;
+    color: inherit;
+  }
+  
+  .hover-text-email::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ff6347;
+    bottom: -5px; 
+    right: 0;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .hover-text-email:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+    
+  
+  .hover-text-phone {
+    display: inline-block;
+    position: relative;
+    color: inherit;
+  }
+  
+  .hover-text-phone::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #18de81;
+    bottom: -5px; 
+    right: 0;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .hover-text-phone:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+    

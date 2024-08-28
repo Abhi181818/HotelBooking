@@ -1,0 +1,153 @@
+.login {
+  background-color: #c2fbd7;
+  border-radius: 10px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.login:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.signup {
+  background-color: #c2d9ff;
+  border-radius: 10px;
+  box-shadow: rgba(50, 115, 220, 0.2) 0 -25px 18px -14px inset,
+    rgba(50, 115, 220, 0.15) 0 1px 2px, rgba(50, 115, 220, 0.15) 0 2px 4px,
+    rgba(50, 115, 220, 0.15) 0 4px 8px, rgba(50, 115, 220, 0.15) 0 8px 16px,
+    rgba(50, 115, 220, 0.15) 0 16px 32px;
+  color: #003366;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.signup:hover {
+  box-shadow: rgba(50, 115, 220, 0.35) 0 -25px 18px -14px inset,
+    rgba(50, 115, 220, 0.25) 0 1px 2px, rgba(50, 115, 220, 0.25) 0 2px 4px,
+    rgba(50, 115, 220, 0.25) 0 4px 8px, rgba(50, 115, 220, 0.25) 0 8px 16px,
+    rgba(50, 115, 220, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.navbar {
+  background-color: rgb(15 23 42);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar-nav .nav-link {
+  color: #b3c4d4;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #edeef0;
+}
+
+.navbar-nav .nav-link.active {
+  color: #f1c40f;
+}
+
+.logout {
+  background-color: #ffcccc;
+  border-radius: 10px;
+  box-shadow: rgba(220, 50, 50, 0.2) 0 -25px 18px -14px inset,
+    rgba(220, 50, 50, 0.15) 0 1px 2px, rgba(220, 50, 50, 0.15) 0 2px 4px,
+    rgba(220, 50, 50, 0.15) 0 4px 8px, rgba(220, 50, 50, 0.15) 0 8px 16px,
+    rgba(220, 50, 50, 0.15) 0 16px 32px;
+  color: #660000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.logout:hover {
+  box-shadow: rgba(231, 17, 17, 0.35) 0 -25px 18px -14px inset,
+    rgba(220, 50, 50, 0.25) 0 1px 2px, rgba(220, 50, 50, 0.25) 0 2px 4px,
+    rgba(220, 50, 50, 0.25) 0 4px 8px, rgba(220, 50, 50, 0.25) 0 8px 16px,
+    rgba(220, 50, 50, 0.25) 0 16px 32px;
+    color: white;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.search-box {
+  display: flex;
+  margin-left: -180px;
+  transition: all 0.3s ease;
+  transform: translateX(-10%);
+}
+
+.search-box .input-search {
+  width: 0;
+  opacity: 0;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  border: none;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: white;
+  margin-left: 5px;
+}
+
+.search-box.open .input-search {
+  width: 200px;
+  opacity: 1;
+}
+
+.search-box .btn-search {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.options:hover{
+  cursor: pointer;
+  color: #f1c40f !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}

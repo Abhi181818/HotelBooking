@@ -1,0 +1,61 @@
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(15 23 42);
+    border-radius: 8px;
+    gap: 20px;
+  }
+  
+  .text-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .photo-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .photo-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+
+  
+  .hover-text {
+    display: inline-block;
+    position: relative;
+    color: inherit;
+  }
+  
+  .hover-text::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ff6347;
+    bottom: -5px; 
+    right: 0;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .hover-text:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+    
